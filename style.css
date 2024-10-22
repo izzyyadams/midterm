@@ -12,7 +12,9 @@ body {
     flex-direction: row;
 }
 
-
+a {
+	color: inherit;
+}
 
 .mainHeaderContainer {
     display: flex;
@@ -52,7 +54,6 @@ body {
 	overflow-y: auto;
 	height: 100vh;
 
-
 	
 }
 
@@ -60,7 +61,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: white;
 	width: 55vw;
 	height: 30vh;
 	margin: 0px;
@@ -75,7 +75,48 @@ body {
 	color: #F8F4EC;
 }
 
-#test1 {
+.readButton {
+	display: flex;
+	background-color: #F8F4EC;
+	border: 2px solid #F8F4EC;
+	border-radius: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	align-items: center;
+	font-size: 1.2vw;
+
+}
+
+
+.readButton:hover {
+	transform: scale(1.1);
+}
+
+#colleenRead a{
+	color: #A4303F;
+	text-decoration: none;
+}
+
+#kanishaRead a{
+	text-decoration: none;
+	color: #870058;
+}
+
+#shannonRead a{
+	text-decoration: none;
+	color: #15616D;
+}
+
+#shireenRead a{
+	text-decoration: none;
+	color: #001524;
+}
+
+#kanishaTest {
+	display: flex;
+	flex-direction: column; 
 	display: flex;
 	background-color: #870058;
 	border: 4px solid #870058;
@@ -83,21 +124,29 @@ body {
 }
 
 
-#test2 {
+
+
+#shannonTest {
+	display: flex;
+	flex-direction: column; 
 	background-color: #15616D;
 	border: 4px solid #15616D;
 	border-radius: 15px;
 }
 
 
-#test3 {
+#colleenTest {
+	display: flex;
+	flex-direction: column;  
 	background-color: #A4303F;
 	border: 4px solid #A4303F;
 	border-radius: 15px;
 }
 
 
-#test4 {
+#shireenTest {
+	display: flex;
+	flex-direction: column; 
 	background-color: #001524;
 	border: 4px solid #001524;
 	border-radius: 15px;
@@ -168,13 +217,6 @@ body {
 
 }
 
-a {
-	color: inherit;
-}
-
-a:hover {
-  transform: scale(1.2);
-}
 
 
 .pplink {
@@ -185,9 +227,11 @@ a:hover {
 
 .homeButton {
     position: absolute;
-    top: 20px
+    top: 20px;
     left: 20px;
     margin: 10px;
+    padding: 2px;
+    border-radius: 10px;
 
 }
 
@@ -200,33 +244,108 @@ a:hover {
     font-size: 1.2vw;
 	font-family: "Inter", sans-serif;
     font-weight: 700;
-    padding: 10px; 
+    padding: 10px;
 }
 
 #colleenButton {
 	color: #A4303F;
     border: 1px solid #FFECCC; 
-    border-radius: 10px; 
     background-color: #FFECCC;
 }
 
 #kanishaButton {
 	color: #870058;
     border: 1px solid #FFECCC; 
-    border-radius: 10px; 
     background-color: #FFECCC;
 }
 
 #shireenButton {
 	color: #001524;
-    border: 1px solid #FFECCC; 
-    border-radius: 10px; 
+    border: 1px solid #FFECCC;  
     background-color: #FFECCC;
 }
 
 #shannonButton {
 	color: #15616D;
     border: 1px solid #FFECCC; 
-    border-radius: 15px; 
     background-color: #FFECCC;
 }
+
+#finalButton {
+	color:#00286E;
+	border: 2px solid #FFECCC;
+	background-color: #FFECCC;
+}
+
+.resourcesPage {
+	background-color: #00286E;
+	display: flex;
+	justify-content: space-between;
+	color: #FFECCC;
+}
+
+.servicesContainer, .linksContainer{
+	width: 30vw;
+	text-align: center;
+	background-color: #2795D5;
+	height: 50vh;
+	border: 2px solid #2795D5;
+	border-radius: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: "Inter", sans-serif;
+    font-weight: 700;
+    line-height: 35px;
+    font-size:1.2vw;
+}
+
+.careContainer {
+	width: 30vw;
+	text-align: center;
+	font-family: "Bevan", serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 1.6vw;
+}
+
+.resourcesPage h2{
+	font-size: 1.8vw;
+}
+
+.supportButton {
+	background-color: #FFECCC;
+	border: 2px solid #FFECCC;
+	border-radius: 10px;
+	margin: 10px;
+    padding: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size:1.2vw;
+
+}
+
+.supportButton:hover{
+	transform: scale(1.2)
+}
+
+#colleenSupport a{
+	color: #A4303F;
+	text-decoration: none;
+}
+
+#kanishaSupport a {
+	color: #870058;
+	text-decoration: none;
+}
+
+#shannonSupport a{
+	color: #15616D;
+	text-decoration: none;
+}
+
+#shireenSupport a{
+	text-decoration: none;
+	color: #001524;
+}
+
+
