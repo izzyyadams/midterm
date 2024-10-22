@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: rgba(239,211,190,255);
+	background-color: #FFECCC;
 	margin: 0; 
     height: 100vh; 
     display: flex; 
@@ -28,7 +28,7 @@ body {
     font-weight: 400;
     font-style: normal;
 	font-size: 3.6vw;
-	color: rgba(61,24,18,255);
+	color: #001524;
 	margin: 0px;
 
 
@@ -39,7 +39,7 @@ body {
 	font-family: "Stylish", serif;
     font-weight: 400;
     font-size: 2.5vw;
-	color: rgba(224,122,117,255);
+	color: #870058;
 	margin-top: 20px;
 	margin-bottom: 20px;
 
@@ -72,37 +72,34 @@ body {
     font-weight: 700;
 	line-height: 2;
 	font-size: 1.4vw;
+	color: #F8F4EC;
 }
 
 #test1 {
 	display: flex;
-	background-color: rgba(245,47,48,255);
-	color: rgba(69,16,2,255);
-	border: 2px solid rgba(245,47,48,255);
+	background-color: #870058;
+	border: 4px solid #870058;
 	border-radius: 15px;
 }
 
 
 #test2 {
-	background-color: rgba(64,24,22,255);
-	color: rgba(184,172,72,255);
-	border: 2px solid rgba(64,24,22,255);
+	background-color: #15616D;
+	border: 4px solid #15616D;
 	border-radius: 15px;
 }
 
 
 #test3 {
-	background-color: rgba(169,90,109,255);
-	color:rgba(250,212,199,255);
-	border: 2px solid rgba(169,90,109,255);
+	background-color: #A4303F;
+	border: 4px solid #A4303F;
 	border-radius: 15px;
 }
 
 
 #test4 {
-	background-color: rgba(128, 0, 0, 1);
-	color: rgba(255, 182, 193, 0.7);
-	border: 2px solid rgba(128, 0, 0, 1);
+	background-color: #001524;
+	border: 4px solid #001524;
 	border-radius: 15px;
 }
 
@@ -151,29 +148,34 @@ body {
 }
 
 .shannon {
-	background-color: rgba(64,24,22,255);
-	color: rgba(184,172,72,255);
+	background-color: #15616D;
+	color: #FFECCC;
 }
 
 .colleen {
-	background-color: rgba(169,90,109,255);
-	color:rgba(250,212,199,255);
+	background-color: #A4303F;
+	color: #FFECCC;
 }
 
 .shireen {
-	background-color: rgba(128, 0, 0, 1);
-	color: rgba(255, 182, 193, 0.7);
+	background-color: #001524;
+	color: #FFECCC;
 }
 
 .kanisha {
-	background-color: rgba(69,16,2,255);
-	color: rgba(245,47,48,255);
+	background-color: #870058;
+	color: #FFECCC;
 
 }
 
 a {
 	color: inherit;
 }
+
+a:hover {
+  transform: scale(1.2);
+}
+
 
 .pplink {
 	font-size: 1.4vw;
@@ -186,6 +188,11 @@ a {
     top: 20px
     left: 20px;
     margin: 10px;
+
+}
+
+.homeButton:hover {
+  transform: scale(1.2);
 }
 
 .homeButton a {
@@ -197,29 +204,29 @@ a {
 }
 
 #colleenButton {
-	color: rgba(169,90,109,255);
-    border: 1px solid rgba(250,212,199,255); 
+	color: #A4303F;
+    border: 1px solid #FFECCC; 
     border-radius: 10px; 
-    background-color: rgba(250,212,199,255);
+    background-color: #FFECCC;
 }
 
 #kanishaButton {
-	color: rgba(69,16,2,255);
-    border: 1px solid rgba(245,47,48,255); 
+	color: #870058;
+    border: 1px solid #FFECCC; 
     border-radius: 10px; 
-    background-color: rgba(245,47,48,255);
+    background-color: #FFECCC;
 }
 
 #shireenButton {
-	color: rgba(128, 0, 0, 1);
-    border: 1px solid rgba(255, 182, 193, 0.7); 
+	color: #001524;
+    border: 1px solid #FFECCC; 
     border-radius: 10px; 
-    background-color: rgba(255, 182, 193, 0.7);
+    background-color: #FFECCC;
 }
 
 #shannonButton {
-	color: rgba(64,24,22,255);
-    border: 1px solid rgba(184,172,72,255); 
+	color: #15616D;
+    border: 1px solid #FFECCC; 
     border-radius: 15px; 
-    background-color: rgba(184,172,72,255);
+    background-color: #FFECCC;
 }
