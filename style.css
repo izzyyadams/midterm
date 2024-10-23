@@ -282,13 +282,14 @@ a {
 	display: flex;
 	justify-content: space-between;
 	color: #FFECCC;
+	justify-content: center;
+	align-items: center;
 }
 
 .servicesContainer, .linksContainer{
 	width: 30vw;
 	text-align: center;
 	background-color: #2795D5;
-	height: 50vh;
 	border: 2px solid #2795D5;
 	border-radius: 15px;
 	margin-left: 20px;
